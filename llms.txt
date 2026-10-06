@@ -1,0 +1,118 @@
+# 多金喵喵汉化组 · 《寒蝉鸣泣之时奉》NS 中文汉化补丁
+
+> 《寒蝉鸣泣之时奉》(Higurashi no Naku Koro ni Hou, Nintendo Switch) 的简体中文汉化补丁，以 LayeredFS / Mod 形式加载，不改动游戏本体。官网：https://hanchan.daheiai.com/
+
+## 核心信息
+
+- 组织：多金喵喵汉化组（个人汉化组，AI 辅助制作）
+- 游戏：Nintendo Switch《寒蝉鸣泣之时奉》，Title ID 0100F6A00A684000
+- 当前版本：Public V2.0（适配游戏 2.0.0 / 2.0.2，含本体及 Origin/DLC）；Public V1.1（适配游戏 1.0.0 / 1.2.0）
+- 运行平台：Eden / Yuzu / Sudachi 模拟器；已破解 NS 实机 + Atmosphère 1.12.0 及以上
+- 语言：简体中文；费用：免费；最近更新：2026-10-06（Public V2.0）
+
+## 下载
+
+- Public V2.0：https://dl.daheiai.com/hanchan/v2.0/Higurashi_Public_V2.0_20261006.zip
+- Public V1.1：https://dl.daheiai.com/hanchan/v1.1/Higurashi_Public_V1.1_SD_20260706.zip
+- 历史版本目录：https://dl.daheiai.com/hanchan/<版本号全小写>/（如 v0.56、v0.42、v0.1）
+
+## 安装：模拟器（Eden / Yuzu / Sudachi）
+
+1. 确认游戏版本与补丁匹配：V2.0 对应游戏 2.0.0 / 2.0.2，V1.1 对应游戏 1.0.0 / 1.2.0。
+2. 在模拟器中右键该游戏，选择「打开 Mod 数据目录」。
+3. 新建一个文件夹（名字随意，例如 higurashi_cn），把补丁包内 Emulator_Mod_模拟器直接加载 里的 romfs 和 exefs 整体放进去。
+4. 启用该模组，并停用本游戏的旧汉化模组。
+5. 启动游戏。
+
+## 安装：Switch 实机（Atmosphère）
+
+1. 完全退出游戏。
+2. 把补丁包内 Atmosphere_SD_真实机复制到SD卡根目录 里的 atmosphere 文件夹复制到 SD 卡根目录，合并并覆盖同名文件。
+3. 确认同时存在 romfs/patch.rom、patch.rmm 与 atmosphere/exefs_patches/higurashi_cn/ 下的配套 IPS。
+4. 系统 23.0.0 / 23.0.1 建议搭配 Atmosphère 1.12.0 及以上，并更新 fusee。
+5. 不要同时保留其它路径下的旧汉化或冲突补丁。
+6. 启动游戏。
+
+## 常见问题（FAQ）
+
+### 这个汉化补丁是什么？
+
+《寒蝉鸣泣之时奉》Nintendo Switch 版的简体中文汉化补丁，由多金喵喵汉化组制作。它以 LayeredFS / Mod 方式加载，不修改游戏本体，完全免费发布。
+
+### 支持哪些游戏版本？
+
+Public V2.0 适配游戏 2.0.0 / 2.0.2，兼容本体及 Origin／DLC 内容；Public V1.1 适配游戏 1.0.0 / 1.2.0。两条线不能混用。
+
+### V1.1 和 V2.0 应该选哪个？
+
+按你安装的游戏版本选：游戏 1.0.0 / 1.2.0 用 Public V1.1；游戏 2.0.0 / 2.0.2 用 Public V2.0。装错版本可能出现乱码、界面不生效或闪退。
+
+### 补丁包含游戏本体或 DLC 吗？
+
+不包含。补丁只提供汉化文件，需要自备正版游戏本体和对应的更新／DLC。
+
+### 支持哪些模拟器和系统？
+
+支持 Eden、Yuzu、Sudachi 等可以加载 Switch mod 的模拟器，Windows、macOS、Android 都可以使用。
+
+### 模拟器上补丁要怎么安装？
+
+在模拟器里右键该游戏，选择「打开 Mod 数据目录」，新建一个文件夹（名字随意，例如 higurashi_cn），把补丁包里「Emulator_Mod_模拟器直接加载」内的 romfs 和 exefs 两个文件夹整体放进去，然后启用该模组并停用旧的汉化模组。
+
+### Switch 实机上补丁要怎么安装？
+
+把补丁包里「Atmosphere_SD_真实机复制到SD卡根目录」内的 atmosphere 文件夹复制到 SD 卡根目录，合并并覆盖同名文件。补丁会落到 atmosphere/contents/0100F6A00A684000/romfs/ 与 atmosphere/exefs_patches/higurashi_cn/。
+
+### 实机需要什么系统和大气层版本？
+
+系统 23.0.0 / 23.0.1 建议搭配 Atmosphère 1.12.0 及以上，并更新 fusee。补丁路径 atmosphere/contents/Title ID/ 与 atmosphere/exefs_patches/ 在新版本中没有变化。
+
+### 为什么 patch.rom 和 IPS 必须一起安装？
+
+patch.rom 与 patch.rmm 提供 ROM2 资源和中文字体，exefs_patches 里的 IPS 负责 CP932 字符映射和界面字符串寻址。只装其中一半会出现缺字、乱码或界面不生效。
+
+### 安装补丁会覆盖存档吗？
+
+不会。补丁不包含存档，也不要求覆盖存档，存档数据保持不变。
+
+### 装了补丁后游戏闪退或崩溃怎么办？
+
+依次检查：游戏版本是否与补丁线匹配；是否残留其它路径的旧汉化；patch.rom、patch.rmm 与 IPS 是否配套齐全；确认没有混用不同版本的文本、字库和 IPS。
+
+### 怎么卸载或回退补丁？
+
+实机删除 SD 卡上的 atmosphere/contents/0100F6A00A684000/ 与 atmosphere/exefs_patches/higurashi_cn/；模拟器删除对应的 mod 文件夹。回退时建议使用完整的旧版补丁，避免混用。
+
+### 汉化质量如何？还有生硬的句子吗？
+
+补丁主要由 AI 辅助制作。早期版本受 Switch 单句字符长度限制影响，部分句子比较书面化；V2.0 已解除该限制并持续修正，但仍有未人工校对的句子，欢迎反馈。
+
+### 发现翻译问题怎么反馈？
+
+在官网「提交反馈」入口提交，附上篇章名、前后台词和游戏版本，便于定位。后台会按反馈热度优先修复。
+
+### 补丁会继续更新吗？历史版本在哪？
+
+会。作者按玩家反馈和测试结果持续更新；历史版本 V0.1 至 V0.56 仍保留在下载目录中。
+
+### 多金喵喵汉化组是谁？
+
+一个个人汉化项目，成员是大黑、GPT-5.5 和猫「多金」，其中主要执行工作由 AI 完成。
+
+### 这个补丁和 PC 版汉化、07th-Mod 有关系吗？
+
+没有隶属关系。本项目参考了 PC 版成熟汉化译文以及 07th-Mod、HigurashiENX 的技术经验，但为独立的 Switch 版实现。
+
+### 补丁免费吗？和 07th Expansion 有关系吗？
+
+完全免费。补丁与 07th Expansion、Entergram 没有任何关联，请购买正版游戏支持原作。
+
+## 相关链接
+
+- 官网：https://hanchan.daheiai.com/
+- 攻略 Wiki：https://hanchan.daheiai.com/wiki/
+- 作者主页：https://daheiai.com/
+
+## 免责声明
+
+本补丁仅供学习交流使用，请购买正版游戏。与 07th Expansion、Entergram 无任何关联。

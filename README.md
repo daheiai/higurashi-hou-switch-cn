@@ -1,0 +1,66 @@
+<div align="center">
+
+# 寒蝉鸣泣之时奉 · Switch 简体中文汉化补丁
+
+**Higurashi no Naku Koro ni Hou — Nintendo Switch Simplified Chinese Patch**
+
+[![官网](https://img.shields.io/badge/%E5%AE%98%E7%BD%91-hanchan.daheiai.com-FF6B00)](https://hanchan.daheiai.com/)
+[![版本](https://img.shields.io/badge/%E7%89%88%E6%9C%AC-Public%20V1.1%20%2F%20V2.0-1A1A1A)](https://hanchan.daheiai.com/#downloads)
+[![平台](https://img.shields.io/badge/%E5%B9%B3%E5%8F%B0-Switch%20%C2%B7%20Eden%20%C2%B7%20Yuzu%20%C2%B7%20Sudachi-666666)](docs/install-emulator.md)
+[![免费](https://img.shields.io/badge/%E8%B4%B9%E7%94%A8-%E5%85%8D%E8%B4%B9-16a34a)](https://hanchan.daheiai.com/#downloads)
+
+</div>
+
+> **本仓库是发布信息与安装文档仓库**，不存放游戏本体，也不存放补丁二进制。补丁请到官网下载。
+
+## 这是什么
+
+《寒蝉鸣泣之时奉》（Higurashi no Naku Koro ni Hou，Nintendo Switch）的**简体中文汉化补丁**，由**多金喵喵汉化组**制作。
+
+补丁以 **LayeredFS / Mod** 形式加载，**不修改游戏本体**，**完全免费**。
+
+- 游戏 Title ID：`0100F6A00A684000`
+- 支持平台：已破解 Switch 实机（Atmosphère 1.12.0 及以上）、Eden / Yuzu / Sudachi 模拟器
+- 支持语言：简体中文（zh-CN）
+- 官网与下载：**https://hanchan.daheiai.com/#downloads**
+
+## 版本对照
+
+| 补丁版本 | 发布日期 | 适用游戏版本 | 说明 |
+| --- | --- | --- | --- |
+| **Public V2.0** | 2026-10-06 | 2.0.0 / 2.0.2 | 含本体及 Origin / DLC 内容 |
+| Public V1.1 | 2026-07-06 | 1.0.0 / 1.2.0 | V1 系列稳定版 |
+| 历史版本 V0.1 ~ V0.56 | 2026-06 | 1.0.0 / 1.2.0 | 见官网下载区 |
+
+> 两条线**不能混用**。装错版本会出现缺字、乱码、界面不生效或闪退。
+
+## 下载
+
+### 👉 官方下载页：https://hanchan.daheiai.com/#downloads
+
+提供**直链下载**、**百度网盘**、**夸克网盘**三种渠道，并附版本说明与更新记录。
+
+## 安装
+
+- [**Switch 实机（Atmosphère）安装指南**](docs/install-atmosphere.md)
+- [**模拟器（Eden / Yuzu / Sudachi）安装指南**](docs/install-emulator.md)
+
+## 汉化效果
+
+<img src="screenshots/show1.jpg" width="49%"> <img src="screenshots/show3.jpg" width="49%">
+
+<img src="screenshots/show7.jpg" width="49%"> <img src="screenshots/og-cover.png" width="49%">
+
+## 常见问题
+
+👉 [完整 FAQ（18 条）](docs/faq.md) · [版本历史](CHANGELOG.md) · [鸣谢](docs/credits.md)
+
+## 免责声明
+
+本补丁仅供学习交流使用，**请购买正版游戏**。本项目与 07th Expansion、Entergram 无任何关联，不代表官方立场。
+
+## 相关链接
+
+- 官网：https://hanchan.daheiai.com/
+- 攻略 Wiki：https://hanchan.daheiai.com/wiki/
+- 作者主页：https://daheiai.com/

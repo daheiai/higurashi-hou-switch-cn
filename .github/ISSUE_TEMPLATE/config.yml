@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 官网与下载
+    url: https://hanchan.daheiai.com/#downloads
+    about: 各版本下载、版本说明与安装教程
+  - name: 攻略 Wiki
+    url: https://hanchan.daheiai.com/wiki/
+    about: 篇章顺序、路线与 Quiz 答案

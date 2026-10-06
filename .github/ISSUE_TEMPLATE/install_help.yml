@@ -1,0 +1,47 @@
+name: 安装求助
+description: 安装遇到问题、游戏起不来、界面不生效
+title: "[安装] "
+labels: ["installation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        安装前请先看 [实机安装指南](../blob/main/docs/install-atmosphere.md) 或 [模拟器安装指南](../blob/main/docs/install-emulator.md)。
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 平台
+      options:
+        - Switch 实机（Atmosphère）
+        - Eden
+        - Yuzu
+        - Sudachi
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: system
+    attributes:
+      label: 系统 / 大气层 / 模拟器版本
+      placeholder: 例如 系统 23.0.1 + Atmosphère 1.12.0
+    validations:
+      required: true
+  - type: input
+    id: patch-version
+    attributes:
+      label: 补丁版本与游戏版本
+      placeholder: 例如 Public V2.0 / 游戏 2.0.2
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 你已经做过的步骤
+    validations:
+      required: true
+  - type: textarea
+    id: error
+    attributes:
+      label: 具体现象 / 报错
+    validations:
+      required: true

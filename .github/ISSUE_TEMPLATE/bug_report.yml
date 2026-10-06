@@ -1,0 +1,63 @@
+name: 汉化问题反馈
+description: 报告翻译错误、缺字、乱码、闪退等问题
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请尽量填完整，尤其是**前后台词**和**游戏版本**，否则很难定位。
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 运行平台
+      options:
+        - Switch 实机（Atmosphère）
+        - Eden
+        - Yuzu
+        - Sudachi
+        - 其他
+    validations:
+      required: true
+  - type: input
+    id: patch-version
+    attributes:
+      label: 补丁版本
+      placeholder: 例如 Public V2.0
+    validations:
+      required: true
+  - type: input
+    id: game-version
+    attributes:
+      label: 游戏版本
+      placeholder: 例如 2.0.2
+    validations:
+      required: true
+  - type: input
+    id: chapter
+    attributes:
+      label: 篇章
+      placeholder: 例如 鬼隐篇 / 绵流篇 / TIPS
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 尽量写清在哪一句、什么现象
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 前后台词
+      description: 出错那句的上一句和下一句，方便精确定位
+    validations:
+      required: false
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: 截图 / 视频
+      description: 直接拖进来即可
+    validations:
+      required: false
