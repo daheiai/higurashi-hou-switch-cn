@@ -18,7 +18,7 @@
 补丁以 **LayeredFS / Mod** 形式加载，**不修改游戏本体**，**完全免费**。
 
 - 游戏 Title ID：`0100F6A00A684000`
-- 支持平台：已破解 Switch 实机（Atmosphère 1.12.0 及以上）、Eden / Yuzu / Sudachi 模拟器
+- 支持平台：被撅了的Switch一代机、各类NS模拟器
 - 支持语言：简体中文（zh-CN）
 - 官网与下载：[hanchan.daheiai.com/#downloads](https://hanchan.daheiai.com/#downloads)
 
