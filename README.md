@@ -11,8 +11,6 @@
 
 </div>
 
-> **本仓库是发布信息与安装文档仓库**，不存放游戏本体，也不存放补丁二进制。补丁请到官网下载。
-
 ## 这是什么
 
 《寒蝉鸣泣之时奉》（Higurashi no Naku Koro ni Hou，Nintendo Switch）的**简体中文汉化补丁**，由**多金喵喵汉化组**制作。
@@ -22,7 +20,7 @@
 - 游戏 Title ID：`0100F6A00A684000`
 - 支持平台：已破解 Switch 实机（Atmosphère 1.12.0 及以上）、Eden / Yuzu / Sudachi 模拟器
 - 支持语言：简体中文（zh-CN）
-- 官网与下载：**https://hanchan.daheiai.com/#downloads**
+- 官网与下载：[hanchan.daheiai.com/#downloads](https://hanchan.daheiai.com/#downloads)
 
 ## 版本对照
 
