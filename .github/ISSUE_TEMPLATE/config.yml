@@ -3,6 +3,9 @@ contact_links:
   - name: 官网与下载
     url: https://hanchan.daheiai.com/#downloads
     about: 各版本下载、版本说明与安装教程
-  - name: 攻略 Wiki
+  - name: 攻略 Wiki（奉）
     url: https://hanchan.daheiai.com/wiki/
     about: 篇章顺序、路线与 Quiz 答案
+  - name: PSV《粹》汉化补丁
+    url: https://github.com/daheiai/higurashi-sui-psv-cn
+    about: PSV 版补丁的下载与安装说明，与 Switch 版互不通用

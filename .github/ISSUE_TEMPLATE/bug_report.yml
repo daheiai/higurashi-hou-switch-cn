@@ -23,7 +23,7 @@ body:
     id: patch-version
     attributes:
       label: 补丁版本
-      placeholder: 例如 Public V2.0
+      placeholder: 例如 Public V2.2
     validations:
       required: true
   - type: input

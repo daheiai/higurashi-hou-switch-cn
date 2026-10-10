@@ -6,19 +6,22 @@
 
 - 组织：多金喵喵汉化组（个人汉化组，AI 辅助制作）
 - 游戏：Nintendo Switch《寒蝉鸣泣之时奉》，Title ID 0100F6A00A684000
-- 当前版本：Public V2.0（适配游戏 2.0.0 / 2.0.2，含本体及 Origin/DLC）；Public V1.1（适配游戏 1.0.0 / 1.2.0）
+- 当前版本：Public V2.2（适配游戏 2.0.0 / 2.0.2，含本体及 Origin/DLC）；Public V1.1（适配游戏 1.0.0 / 1.2.0）
 - 运行平台：Eden / Yuzu / Sudachi 模拟器；已破解 NS 实机 + Atmosphère 1.12.0 及以上
-- 语言：简体中文；费用：免费；最近更新：2026-10-06（Public V2.0）
+- 语言：简体中文；费用：免费；最近更新：2026-10-08（Public V2.2）
 
 ## 下载
 
-- Public V2.0：https://dl.daheiai.com/hanchan/v2.0/Higurashi_Public_V2.0_20261006.zip
+- Public V2.2：https://dl.daheiai.com/hanchan/v2.2/Higurashi_Public_V2.2_20261008.zip
+- Public V2.2 百度网盘：https://pan.baidu.com/s/1w3t7LV7mi9WES5WtzCNeUQ?pwd=u3bm
+- Public V2.2 夸克网盘：https://pan.quark.cn/s/9797ea52e461
+- Public V2.2 115网盘：https://115cdn.com/s/swsj1yz3hdq?password=l367
 - Public V1.1：https://dl.daheiai.com/hanchan/v1.1/Higurashi_Public_V1.1_SD_20260706.zip
 - 历史版本目录：https://dl.daheiai.com/hanchan/<版本号全小写>/（如 v0.56、v0.42、v0.1）
 
 ## 安装：模拟器（Eden / Yuzu / Sudachi）
 
-1. 确认游戏版本与补丁匹配：V2.0 对应游戏 2.0.0 / 2.0.2，V1.1 对应游戏 1.0.0 / 1.2.0。
+1. 确认游戏版本与补丁匹配：V2.2 对应游戏 2.0.0 / 2.0.2，V1.1 对应游戏 1.0.0 / 1.2.0。
 2. 在模拟器中右键该游戏，选择「打开 Mod 数据目录」。
 3. 新建一个文件夹（名字随意，例如 higurashi_cn），把补丁包内 Emulator_Mod_模拟器直接加载 里的 romfs 和 exefs 整体放进去。
 4. 启用该模组，并停用本游戏的旧汉化模组。
@@ -41,11 +44,11 @@
 
 ### 支持哪些游戏版本？
 
-Public V2.0 适配游戏 2.0.0 / 2.0.2，兼容本体及 Origin／DLC 内容；Public V1.1 适配游戏 1.0.0 / 1.2.0。两条线不能混用。
+Public V2.2 适配游戏 2.0.0 / 2.0.2，兼容本体及 Origin／DLC 内容；Public V1.1 适配游戏 1.0.0 / 1.2.0。两条线不能混用。
 
-### V1.1 和 V2.0 应该选哪个？
+### V1.1 和 V2.2 应该选哪个？
 
-按你安装的游戏版本选：游戏 1.0.0 / 1.2.0 用 Public V1.1；游戏 2.0.0 / 2.0.2 用 Public V2.0。装错版本可能出现乱码、界面不生效或闪退。
+按你安装的游戏版本选：游戏 1.0.0 / 1.2.0 用 Public V1.1；游戏 2.0.0 / 2.0.2 用 Public V2.2。装错版本可能出现乱码、界面不生效或闪退。
 
 ### 补丁包含游戏本体或 DLC 吗？
 
@@ -85,11 +88,7 @@ patch.rom 与 patch.rmm 提供 ROM2 资源和中文字体，exefs_patches 里的
 
 ### 汉化质量如何？还有生硬的句子吗？
 
-补丁主要由 AI 辅助制作。早期版本受 Switch 单句字符长度限制影响，部分句子比较书面化；V2.0 已解除该限制并持续修正，但仍有未人工校对的句子，欢迎反馈。
-
-### 发现翻译问题怎么反馈？
-
-在官网「提交反馈」入口提交，附上篇章名、前后台词和游戏版本，便于定位。后台会按反馈热度优先修复。
+补丁主要由 AI 辅助制作。早期版本受 Switch 单句字符长度限制影响，部分句子比较书面化；V2.2 已解除该限制并持续修正，但仍有未人工校对的句子，欢迎反馈。
 
 ### 补丁会继续更新吗？历史版本在哪？
 
@@ -111,6 +110,8 @@ patch.rom 与 patch.rmm 提供 ROM2 资源和中文字体，exefs_patches 里的
 
 - 官网：https://hanchan.daheiai.com/
 - 攻略 Wiki：https://hanchan.daheiai.com/wiki/
+- 《粹》攻略 Wiki：https://hanchan.daheiai.com/wiki-cui/
+- 姊妹项目（PSV《寒蝉鸣泣之时 粹》汉化补丁）：https://github.com/daheiai/higurashi-sui-psv-cn
 - 作者主页：https://daheiai.com/
 
 ## 免责声明

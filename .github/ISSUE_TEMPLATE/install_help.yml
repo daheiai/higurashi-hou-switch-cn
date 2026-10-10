@@ -30,7 +30,7 @@ body:
     id: patch-version
     attributes:
       label: 补丁版本与游戏版本
-      placeholder: 例如 Public V2.0 / 游戏 2.0.2
+      placeholder: 例如 Public V2.2 / 游戏 2.0.2
     validations:
       required: true
   - type: textarea
